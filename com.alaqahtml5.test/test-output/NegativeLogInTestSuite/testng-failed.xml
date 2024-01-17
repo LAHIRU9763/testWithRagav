@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [NegativeLogInTestSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="NegativeUsernameTest-CH(failed)">
+    <parameter name="password" value="123"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="expectedMessage" value="User Name or Password Incorrect"/>
+    <parameter name="username" value="incorrectUsername"/>
+    <classes>
+      <class name="com.alaqahtml5.qa.loginpagetests.NegativeLogInTests">
+        <methods>
+          <include name="setUp"/>
+          <include name="logInTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.alaqahtml5.qa.loginpagetests.NegativeLogInTests -->
+    </classes>
+  </test> <!-- NegativeUsernameTest-CH(failed) -->
+  <test thread-count="5" name="NegativeUsernameTest-FF(failed)">
+    <parameter name="password" value="SuperSecretPassword!"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="expectedMessage" value="User Name or Password Incorrect"/>
+    <parameter name="username" value="incorrectUsername"/>
+    <classes>
+      <class name="com.alaqahtml5.qa.loginpagetests.NegativeLogInTests">
+        <methods>
+          <include name="setUp"/>
+          <include name="logInTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.alaqahtml5.qa.loginpagetests.NegativeLogInTests -->
+    </classes>
+  </test> <!-- NegativeUsernameTest-FF(failed) -->
+  <test thread-count="5" name="NegativePasswordTest-CH(failed)">
+    <parameter name="password" value="1234"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="expectedMessage" value="User Name or Password Incorrect"/>
+    <parameter name="username" value="KusalUA"/>
+    <classes>
+      <class name="com.alaqahtml5.qa.loginpagetests.NegativeLogInTests">
+        <methods>
+          <include name="setUp"/>
+          <include name="logInTest"/>
+        </methods>
+      </class> <!-- com.alaqahtml5.qa.loginpagetests.NegativeLogInTests -->
+    </classes>
+  </test> <!-- NegativePasswordTest-CH(failed) -->
+</suite> <!-- Failed suite [NegativeLogInTestSuite] -->
