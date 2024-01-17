@@ -1,0 +1,11 @@
+ Volume in drive C has no label.
+ Volume Serial Number is 78FB-3AC8
+
+ Directory of C:\Users\lahiruh\Desktop\gitAla
+
+01/17/2024  05:04 PM    <DIR>          .
+01/17/2024  04:59 PM    <DIR>          ..
+01/17/2024  05:00 PM    <DIR>          com.alaqahtml5.test
+01/17/2024  05:04 PM                 0 test.txt
+               1 File(s)              0 bytes
+               3 Dir(s)  79,277,174,784 bytes free
